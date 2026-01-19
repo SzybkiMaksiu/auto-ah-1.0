@@ -1,4 +1,4 @@
-package pl.lordtricker.ltrynek.client.mixin;
+package pl.szybkimaksiu.autorynek.client.mixin;
 
 import net.minecraft.screen.ScreenHandler;
 import net.minecraft.screen.slot.Slot;
