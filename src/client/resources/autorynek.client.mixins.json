@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "pl.szybki.autorynek.client.mixin",
+	"package": "pl.szybki.autorynek.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"HandledScreenMixin",
