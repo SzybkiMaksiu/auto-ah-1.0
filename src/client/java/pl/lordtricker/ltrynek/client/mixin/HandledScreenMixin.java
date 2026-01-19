@@ -1,4 +1,4 @@
-package pl.lordtricker.ltrynek.client.mixin;
+package pl.szybkimaksiu.autorynek.client.mixin;
 
 import net.minecraft.client.sound.PositionedSoundInstance;
 import pl.lordtricker.ltrynek.client.LtrynekClient;
