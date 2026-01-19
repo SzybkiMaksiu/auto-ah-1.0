@@ -1,4 +1,4 @@
-package pl.lordtricker.ltrynek.client.mixin;
+package pl.szybkimaksiu.autorynek.client.mixin;
 
 import net.minecraft.client.network.ServerInfo;
 import net.minecraft.client.option.ServerList;
