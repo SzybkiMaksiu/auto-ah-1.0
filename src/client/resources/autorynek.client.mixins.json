@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "pl.lordtricker.ltrynek.client.mixin",
+	"package": "pl.szybki.autorynek.client.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"HandledScreenMixin",
