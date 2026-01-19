@@ -1,39 +1,39 @@
 {
-	"schemaVersion": 1,
-	"id": "ltrynek",
-	"version": "${version}",
-	"name": "LT-Rynek",
-	"description": "Amatorska modyfikacja ułatwiająca działania rynkowe na różnych serwerach. Jeżeli powielasz, to miłoby było jakbyś podzielił się info na kim bazujesz <3.",
-	"authors": [
-		"LordTricker"
-	],
-	"contact": {
-		"homepage": "https://blazecode.pl/",
-		"sources": "https://github.com/LordTricker"
-	},
-	"license": "MIT",
-	"icon": "assets/ltrynek/icon.png",
+  "schemaVersion": 1,
+  "id": "autorynek",                    ← ZMIENIONE! (identyfikator Twojego moda)
+  "version": "${version}",
+  "name": "AutoRynek",                  ← ZMIENIONE! (nazwa Twojego moda)
+  "description": "Zaawansowany automat do kupowania przedmiotów z rynku Minecraft. Automatyczne skanowanie, Discord webhook, zarządzanie GUI.",
+  "authors": [                          ← ZMIENIONE!
+    "Szybki"                          ← TWÓJ nick
+  ],
+  "contact": {
+    "homepage": "https://github.com/SzybkiMaksiu",                     ← Możesz wpisać swój profil GitHub
+    "sources": ""                       ← URL Twojego repozytorium (opcjonalnie)
+  },
+  "license": "MIT",                     ← ZOSTAJE (musisz zachować informację o licencji)
+  "icon": "assets/autorynek/icon.png",  ← ZMIENIONE! (potrzebujesz nowej ścieżki)
 
-	"environment": "*",
-	"entrypoints": {
-		"client": [
-			"pl.lordtricker.ltrynek.client.LtrynekClient"
-		]
-	},
-	"mixins": [
-		{
-			"config": "ltrynek.client.mixins.json",
-			"environment": "client"
-		}
-	],
+  "environment": "client",              ← ZMIENIONE! (tylko po stronie klienta)
+  "entrypoints": {
+    "client": [
+      "pl.szybki.autorynek.client.AutoRynekClient"  ← ZMIENIONE! (Twoja główna klasa)
+    ]
+  },
+  "mixins": [
+    {
+      "config": "autorynek.client.mixins.json",  ← ZMIENIONE! (potrzebujesz nowego pliku mixin)
+      "environment": "client"
+    }
+  ],
 
-	"depends": {
-		"fabricloader": ">=0.15.11",
-		"minecraft": ">=1.21.3 <=1.21.4",
-		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
-	}
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": ">=1.21.3 <=1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
 }
